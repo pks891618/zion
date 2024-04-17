@@ -1,0 +1,37 @@
+# Ignore database file
+db.sqlite3
+
+# Ignore staticfiles directory
+staticfiles/
+
+# Ignore media directory
+media/
+env/
+# Ignore secret settings file (if any)
+secret_settings.py
+
+# Byte-compiled / optimized Python files
+*.pyc
+__pycache__/
+
+# Directory for Django's collectstatic
+/staticfiles/
+
+# Directory for Django's media files
+/media/
+
+# SQLite database file
+*.sqlite3
+
+# macOS hidden files
+.DS_Store
+
+# IDE files
+.vscode/
+*.idea/
+
+# Environment variables file
+.env
+
+# Python virtual environment
+venv/
